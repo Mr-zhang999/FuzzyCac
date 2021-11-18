@@ -6,6 +6,8 @@
 函数名称改为：double cacFuzzy(double d1, double d2, double d3) 参数传入：
 dataMatrix[0][0] = d1; dataMatrix[0][1] = d2; dataMatrix[0][2] = d3;
 
+fisMatrixFile.txt文件为matlab设计好的模糊算法
+
 C#调用方式： class fuzzydll { 
 [DllImport("dlltest.dll", EntryPoint = "cacFuzzy", CallingConvention = CallingConvention.Cdecl)] 
 private static extern double cacFuzzy(double d1, double d2, double d3);
